@@ -1,2 +1,2 @@
 # web-prova
-https://fernandasales27.github.io/web-prova/index.html
+https://fernandasales27.github.io/web-prova/index

@@ -32,7 +32,7 @@
                 div_cart.append(div_product)
 
                 const h2_name = $("<h2>" + produto + "</h2>")[0]
-                const p_price = $("<p>Preço: R$ 399.99</p>")[0]
+                const p_price = $("<p>Preço: R$ 3999.99</p>")[0]
                 const p_quantity = $("<p>Quantidade: 1</p>")[0]
                 const button_remove = $("<button onclick='remove("+index+")'>Remover</button>")[0]
                
@@ -62,7 +62,6 @@
 
             list_products.pop(index)
             localStorage.setItem("carrinho", JSON.stringify(list_products))
-            console.log("Opa")
             loadProductsCart()
                 
         }
